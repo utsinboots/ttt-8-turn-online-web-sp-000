@@ -38,6 +38,9 @@ def turn(board)
   position_taken?(board, index)
   if valid_move?(board, index) == true
     move(board, index, player = "X")
+  else
+    puts "Invalid move! Please enter again"
+    turn(board)
   end
 end
 =begin
