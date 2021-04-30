@@ -43,7 +43,7 @@ def turn(board)
     turn(board)
   end
 end
- display_board(board)
+
 =begin
   if valid_move?(board, index) == false
     puts "Invalid move! Please enter again."
